@@ -7,6 +7,10 @@ public class Libro {
     int cantidadDisponible;
     String imagen;
 
+    public Libro() {
+        this.titulo="";
+    }
+
     public Libro(String isbn, String titulo, String autor, int cantidadBiblioteca, int cantidadDisponible, String imagen) {
         this.isbn = isbn; //Codigo libro
         this.titulo = titulo;
@@ -14,6 +18,23 @@ public class Libro {
         this.cantidadBiblioteca = cantidadBiblioteca;
         this.cantidadDisponible = cantidadDisponible;
         this.imagen = imagen;
+    }
+
+    public void crearLibro(String isbn, String titulo, String autor, int cantidadBiblioteca, int cantidadDisponible) {
+
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.cantidadBiblioteca = cantidadBiblioteca;
+        this.cantidadDisponible = cantidadDisponible;
+        this.imagen = "";
+
+    }
+
+    public void eliminarLibro(String isbn) {
+        this.isbn = isbn;
+
+
     }
 
     public String getIsbn() {
@@ -63,5 +84,6 @@ public class Libro {
     public void setImagen(String imagen) {
         this.imagen = imagen;
     }
+
 }
 
