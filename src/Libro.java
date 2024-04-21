@@ -7,9 +7,6 @@ public class Libro {
     int cantidadDisponible;
     String imagen;
 
-    public Libro() {
-        this.titulo="";
-    }
 
     public Libro(String isbn, String titulo, String autor, int cantidadBiblioteca, int cantidadDisponible, String imagen) {
         this.isbn = isbn; //Codigo libro
