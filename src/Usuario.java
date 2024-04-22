@@ -3,15 +3,22 @@ public class Usuario {
     private String nombreCompleto;
     private String RUN;
 
-    private char sexo;
+    private char genero;
 
     private boolean prestamo;
 
-    public Usuario(String RUN, String nombreCompleto, char sexo, boolean prestamo) {
+    public Usuario(String RUN, String nombreCompleto, char genero, boolean prestamo) {
         this.RUN = RUN;
         this.nombreCompleto = nombreCompleto;
-        this.sexo = sexo;
+        this.genero = genero;
         this.prestamo = prestamo;
+
+    }
+
+    public void validarRUN(){
+
+    }
+    public void validargenero(){
 
     }
 
@@ -31,12 +38,12 @@ public class Usuario {
         this.nombreCompleto = nombreCompleto;
     }
 
-    public char getSexo() {
-        return sexo;
+    public char getGenero() {
+        return genero;
     }
 
-    public void setSexo(char sexo) {
-        this.sexo = sexo;
+    public void setGenero(char genero) {
+        this.genero = genero;
     }
 
     public boolean isPrestamo() {

@@ -4,8 +4,8 @@ public class Docente extends Usuario{
 
     String Grado;
 
-    public Docente(String RUN, String nombreCompleto, char sexo, boolean prestamo) {
-        super(RUN, nombreCompleto, sexo, prestamo);
+    public Docente(String RUN, String nombreCompleto, char genero, boolean prestamo) {
+        super(RUN, nombreCompleto, genero, prestamo);
         this.profesion = profesion;
         this.Grado = Grado;
 
