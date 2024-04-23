@@ -2,6 +2,9 @@ public class Estudiante extends Usuario{
 
     String carrera;
 
+    public Estudiante() {
+    }
+
     public Estudiante(String RUN, String nombreCompleto, char genero, boolean prestamo) {
         super(RUN, nombreCompleto, genero, prestamo);
         this.carrera=carrera;

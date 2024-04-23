@@ -4,6 +4,9 @@ public class Docente extends Usuario{
 
     String Grado;
 
+    public Docente() {
+    }
+
     public Docente(String RUN, String nombreCompleto, char genero, boolean prestamo) {
         super(RUN, nombreCompleto, genero, prestamo);
         this.profesion = profesion;

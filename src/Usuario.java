@@ -7,6 +7,9 @@ public class Usuario {
 
     private boolean prestamo;
 
+    public Usuario() {
+    }
+
     public Usuario(String RUN, String nombreCompleto, char genero, boolean prestamo) {
         this.RUN = RUN;
         this.nombreCompleto = nombreCompleto;
